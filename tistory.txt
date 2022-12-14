@@ -1,0 +1,20 @@
+App ID: 037444cf2820b6051c8563e12cc0a914
+Secret Key: 037444cf2820b6051c8563e12cc0a91458ba8ab228a5ce92dbcd168d494cbb78a63de7c4
+
+Code 발급:
+  https://www.tistory.com/oauth/authorize?
+  client_id=
+223a55554c4690ff38faa9b0cb9acfd4
+  &redirect_uri=
+https://kminvis.tistory.com
+  &response_type=code
+  &state=someValue
+
+  198d8090067838b3e983a07414b147aea10f8ef002d4b7262fc707b8c79d897fbb730edc
+
+https://www.tistory.com/oauth/access_token?
+client_id=037444cf2820b6051c8563e12cc0a914
+&client_secret=037444cf2820b6051c8563e12cc0a91458ba8ab228a5ce92dbcd168d494cbb78a63de7c4
+&redirect_uri=https://kminvis.tistory.com
+&code=198d8090067838b3e983a07414b147aea10f8ef002d4b7262fc707b8c79d897fbb730edc
+&grant_type=authorization_code
